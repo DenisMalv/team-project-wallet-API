@@ -26,7 +26,7 @@ app.use("/api/categories", categoryRouter);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.use((req, res) => {
-  res.send("<h2>API running</h2>");
+  res.send("<h2>Page Not found</h2>");
 });
 
 app.use((err, req, res, next) => {

@@ -13,7 +13,7 @@
   "produces": ["application/json"],
   "servers": [
     {
-      "url": "https://wallet-server-api.herokuapp.com/api"
+      "url": ""
     },
     {
       "url": "http://localhost:5000/api"
