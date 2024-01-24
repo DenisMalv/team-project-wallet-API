@@ -9,7 +9,7 @@
     "lint:fix": "eslint --fix **/*.js"
   },
   "dependencies": {
-    "bcryptjs": "^5.1.1",
+    "bcrypt": "^5.1.1",
     "bson-objectid": "^2.0.3",
     "cors": "2.8.5",
     "cross-env": "7.0.3",
